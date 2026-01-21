@@ -1,0 +1,24 @@
+# Environments
+vehicle/
+venv/
+env/
+__pycache__/
+
+# Python build
+*.pyc
+*.pyo
+*.pyd
+src.egg-info/
+
+# Data / Models
+*.csv
+*.zip
+*.pt
+*.pth
+*.h5
+*.pkl
+data/
+models/
+
+# OS
+.DS_Store
