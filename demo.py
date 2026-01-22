@@ -23,6 +23,12 @@
 #     logging.info(e)
 #     raise MyException(e, sys) from e
 
+"""
+    This login can be used when we will want only important information to get pushed.
+"""
+# import logging
+# logging.getLogger("pymongo").setLevel(logging.WARNING)
+
 
 
 from src.pipline.training_pipeline import TrainPipeline
